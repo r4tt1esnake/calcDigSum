@@ -3,7 +3,8 @@ public class calcDigSum {
 	public static void main(String[] args) {
 
 		if(args.length != 1) {
-			throw new IllegalArgumentException("Could not find a specified value to get digit sum.");
+			System.out.println("USAGE: <INT_TO_FIND_DIGIT_ROOT_OF>");
+			System.exit(1);
 		}
 
 		int a = Integer.parseInt(args[0]);
